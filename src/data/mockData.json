@@ -1,0 +1,88 @@
+{
+    "title": "VP of Sales",
+    "status": "Critical",
+    "directReports": [
+        {
+            "title": "Sales Manager",
+            "location": "North America",
+            "status": "Critical",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "Canada",
+                    "status": "Normal",
+                    "directReports": [
+                        {
+                            "title": "Sales Representative",
+                            "location": "Toronto",
+                            "status": "Normal"
+                        },
+                        {
+                            "title": "Sales Representative",
+                            "location": "Vancouver",
+                            "status": "Normal"
+                        }
+                    ]
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "USA",
+                    "status": "Critical",
+                    "directReports": [
+                        {
+                            "title": "Sales Representative",
+                            "location": "New York",
+                            "status": "Warning"
+                        },
+                        {
+                            "title": "Sales Representative",
+                            "location": "Dallas",
+                            "status": "Critical"
+                        },
+                        {
+                            "title": "Sales Representative",
+                            "location": "Los Angeles",
+                            "status": "Critical"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sales Manager",
+            "location": "Europe",
+            "status": "Warning",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "Germany",
+                    "status": "Warning",
+                    "directReports": [
+                        {
+                            "title": "Sales Representative",
+                            "location": "Berlin",
+                            "status": "Normal"
+                        },
+                        {
+                            "title": "Sales Representative",
+                            "location": "Frankfurt",
+                            "status": "Critical"
+                        }
+                    ]
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Italy",
+                    "status": "Normal",
+                    "directReports": [
+                        {
+                            "title": "Sales Representative",
+                            "location": "Milan",
+                            "status": "Normal"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

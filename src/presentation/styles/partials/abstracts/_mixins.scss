@@ -1,0 +1,64 @@
+@import '../base/typography';
+
+@mixin title {
+    font: $title;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+@mixin headline1 {
+    font: $headline1;
+    text-align: center;
+}
+
+@mixin headline2 {
+    font: $headline2;
+    text-align: center;
+}
+
+@mixin headline3 {
+    font: $headline3;
+    text-align: center;
+}
+
+@mixin headline4 {
+    font: $headline4;
+    text-align: center;
+}
+
+@mixin headline5 {
+    font: $headline5;
+    text-align: center;
+}
+
+@mixin headline6 {
+    font: $headline6;
+    text-align: center;
+}
+
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 125px;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@mixin nested-card {
+    margin-top: 1rem;
+}
+
+@mixin normal {
+    background-color: $normal-status-colour;
+}
+
+@mixin warning {
+    background-color: $warning-status-colour;
+}
+
+@mixin critical {
+    background-color: $critical-status-colour;
+}

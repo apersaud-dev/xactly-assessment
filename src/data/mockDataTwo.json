@@ -10,12 +10,14 @@
                 {
                     "title": "Sales Lead",
                     "location": "USA",
-                    "status": "Warning"
+                    "status": "Warning",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Canada",
-                    "status": "Normal"
+                    "status": "Normal",
+                    "directReports": []
                 }
             ]
         },
@@ -27,27 +29,32 @@
                 {
                     "title": "Sales Lead",
                     "location": "Germany",
-                    "status": "Normal"
+                    "status": "Normal",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Italy",
-                    "status": "Critical"
+                    "status": "Critical",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Finland",
-                    "status": "Warning"
+                    "status": "Warning",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Switzerland",
-                    "status": "Normal"
+                    "status": "Normal",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Hungary",
-                    "status": "Critical"
+                    "status": "Critical",
+                    "directReports": []
                 }
             ]
         },
@@ -59,12 +66,14 @@
                 {
                     "title": "Sales Lead",
                     "location": "Ghana",
-                    "status": "Warning"
+                    "status": "Warning",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Nigeria",
-                    "status": "Critical"
+                    "status": "Critical",
+                    "directReports": []
                 }
             ]
         },
@@ -76,17 +85,20 @@
                 {
                     "title": "Sales Lead",
                     "location": "South Korea",
-                    "status": "Warning"
+                    "status": "Warning",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Japan",
-                    "status": "Normal"
+                    "status": "Normal",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Taiwan",
-                    "status": "Normal"
+                    "status": "Normal",
+                    "directReports": []
                 }
             ]
         },
@@ -98,17 +110,20 @@
                 {
                     "title": "Sales Lead",
                     "location": "Australia",
-                    "status": "Warning"
+                    "status": "Warning",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "New Zealand",
-                    "status": "Normal"
+                    "status": "Normal",
+                    "directReports": []
                 },
                 {
                     "title": "Sales Lead",
                     "location": "Fiji",
-                    "status": "Critical"
+                    "status": "Critical",
+                    "directReports": []
                 }
             ]
         }

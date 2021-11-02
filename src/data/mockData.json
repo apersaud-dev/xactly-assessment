@@ -15,12 +15,14 @@
                         {
                             "title": "Sales Representative",
                             "location": "Toronto",
-                            "status": "Normal"
+                            "status": "Normal",
+                            "directReports": []
                         },
                         {
                             "title": "Sales Representative",
                             "location": "Vancouver",
-                            "status": "Normal"
+                            "status": "Normal",
+                            "directReports": []
                         }
                     ]
                 },
@@ -32,17 +34,20 @@
                         {
                             "title": "Sales Representative",
                             "location": "New York",
-                            "status": "Warning"
+                            "status": "Warning",
+                            "directReports": []
                         },
                         {
                             "title": "Sales Representative",
                             "location": "Dallas",
-                            "status": "Critical"
+                            "status": "Critical",
+                            "directReports": []
                         },
                         {
                             "title": "Sales Representative",
                             "location": "Los Angeles",
-                            "status": "Critical"
+                            "status": "Critical",
+                            "directReports": []
                         }
                     ]
                 }
@@ -61,12 +66,14 @@
                         {
                             "title": "Sales Representative",
                             "location": "Berlin",
-                            "status": "Normal"
+                            "status": "Normal",
+                            "directReports": []
                         },
                         {
                             "title": "Sales Representative",
                             "location": "Frankfurt",
-                            "status": "Critical"
+                            "status": "Critical",
+                            "directReports": []
                         }
                     ]
                 },
@@ -78,7 +85,8 @@
                         {
                             "title": "Sales Representative",
                             "location": "Milan",
-                            "status": "Normal"
+                            "status": "Normal",
+                            "directReports": []
                         }
                     ]
                 }

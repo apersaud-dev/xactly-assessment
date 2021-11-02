@@ -1,0 +1,116 @@
+{
+    "title": "VP of Sales",
+    "status": "Critical",
+    "directReports": [
+        {
+            "title": "Sales Manager",
+            "location": "North America",
+            "status": "Warning",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "USA",
+                    "status": "Warning"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Canada",
+                    "status": "Normal"
+                }
+            ]
+        },
+        {
+            "title": "Sales Manager",
+            "location": "Europe",
+            "status": "Critical",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "Germany",
+                    "status": "Normal"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Italy",
+                    "status": "Critical"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Finland",
+                    "status": "Warning"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Switzerland",
+                    "status": "Normal"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Hungary",
+                    "status": "Critical"
+                }
+            ]
+        },
+        {
+            "title": "Sales Manager",
+            "location": "Africa",
+            "status": "Critical",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "Ghana",
+                    "status": "Warning"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Nigeria",
+                    "status": "Critical"
+                }
+            ]
+        },
+        {
+            "title": "Sales Manager",
+            "location": "Asia",
+            "status": "Normal",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "South Korea",
+                    "status": "Warning"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Japan",
+                    "status": "Normal"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Taiwan",
+                    "status": "Normal"
+                }
+            ]
+        },
+        {
+            "title": "Sales Manager",
+            "location": "Oceania",
+            "status": "Warning",
+            "directReports": [
+                {
+                    "title": "Sales Lead",
+                    "location": "Australia",
+                    "status": "Warning"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "New Zealand",
+                    "status": "Normal"
+                },
+                {
+                    "title": "Sales Lead",
+                    "location": "Fiji",
+                    "status": "Critical"
+                }
+            ]
+        }
+    ]
+}

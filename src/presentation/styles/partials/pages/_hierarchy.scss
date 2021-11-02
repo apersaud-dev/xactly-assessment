@@ -1,0 +1,13 @@
+@import '../base/typography';
+@import '../abstracts/mixins';
+
+.hierarchy {
+    padding: 2rem 1rem;
+    background-color: $dark-grey;
+    height: 100vh;
+
+    &__headline {
+        @include title;
+        color: #fff;
+    }
+}

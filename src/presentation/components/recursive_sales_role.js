@@ -38,7 +38,7 @@ function RecursiveSalesRole({ data }) {
             </div>
         )
 
-    } else if (!data.directReports) {
+    } else if (data.directReports.length === 0) {
         return (
             <li key={`${data.title}-${data.location}`} className={`bottom-level bottom-level${modifier}`}>
                 <p className="bottom-level__title">{data.title}</p>
